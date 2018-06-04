@@ -1,0 +1,47 @@
+.ant-carousel .slick-slide {
+    text-align: center;
+    align-content: center;
+    min-width: 1024px;
+    width: 100vw;
+    max-height: 400px;
+    line-height: 200px;
+    background: white;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    align-content: center;
+    min-height: 100%;
+    min-width: 1024px;
+    color: #fff;
+  }
+
+.t1 {
+    background: center url('./Life.png') no-repeat;
+    background-size:contain;
+    background-size:100vw;
+  
+}
+  
+.t2 {
+    background: center url('./Sea.png') no-repeat;
+    background-size:contain;
+    background-size:100vw;
+  }
+  
+.t3 {
+    background: center url('./Ground.png') no-repeat;
+    background-size:contain;
+    background-size:100vw;
+}
+
+.t4 {
+    background: center url('./Sky.png') no-repeat;
+    background-size:contain;
+    background-size:100vw;
+}
+
+.Empty {
+    min-height: 1000px;
+    height: 40%;
+}

@@ -1,0 +1,10 @@
+
+.HeaderB {
+    background-image: url("./header.png");
+    background-color: #36c5ca;
+    height: 465px;
+    padding: 10px;
+    align-items: left;
+    color: black;
+    font-family: 'Black Ops One', cursive;
+}
