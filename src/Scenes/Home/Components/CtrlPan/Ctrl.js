@@ -1,19 +1,33 @@
 import React, { Component } from 'react';
 import './Ctrl.css';
-import Rooms from './ChoosingRooms/ChooseRoom'
-// import './ChooseRoom.css'
-
+import 'antd/dist/antd.css';
+import ChooseRooms from './ChoosingRooms/ChooseRoom'
+import TimeAndDates from './ChoosingHrs/TimeAndDates/TimeAndDates'
+import { Divider } from 'antd';
+import SelectRoom from './SelectRoom/SelectRoom'
+import Validation from './Validation/Validation'
 class Ctrl extends Component {
     render () {
         return (
-            <div>
-                <div className="Ctrl">
-            MEETING ROOMS SERVICE
-            <div className="Empty">
+            <div className="Ctrl">
+            <Divider />
+                {/* <div className="verticallyCtl title"> */}
+                    {/* Meeting Rooms Item: */}
+                {/* </div> */}
+                <div className="verticallyCtl panel">
+                    <SelectRoom/>
                 </div>
-            </div>
-            <Rooms className="ant-carousel">
-            </Rooms>
+                <div className="verticallyCtl panel">
+                    <TimeAndDates/>
+                </div>
+                <div className="verticallyCtl panel">
+                    <Validation/>
+                </div>
+                <Divider />
+                    <div className="verticallyCtl">                    
+                <ChooseRooms className="verticallyCtrl">
+                </ChooseRooms>
+                </div>
             </div>
         );
     }

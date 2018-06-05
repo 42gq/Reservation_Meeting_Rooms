@@ -1,47 +1,57 @@
 .ant-carousel .slick-slide {
     text-align: center;
     align-content: center;
-    min-width: 1024px;
+    min-width: 524px;
     width: 100vw;
-    max-height: 400px;
+    max-height: 500px;
     line-height: 200px;
-    background: white;
+    background: rgb(209, 183, 183);
     overflow: hidden;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
   }
   
-  .ant-carousel .slick-slide h3 {
+.ant-carousel .slick-slide h3 {
     align-content: center;
+    text-align: center;
     min-height: 100%;
+    width: 100vw;
     min-width: 1024px;
-    color: #fff;
+    color: black;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
   }
-
 .t1 {
-    background: center url('./Life.png') no-repeat;
-    background-size:contain;
-    background-size:100vw;
-  
-}
-  
+    background: left url('./Life.png') no-repeat;
+    }
+    
 .t2 {
-    background: center url('./Sea.png') no-repeat;
-    background-size:contain;
-    background-size:100vw;
-  }
-  
+    background: left url('./Sea.png') no-repeat;
+}
+
 .t3 {
-    background: center url('./Ground.png') no-repeat;
-    background-size:contain;
-    background-size:100vw;
+    background: left url('./Ground.png') no-repeat;
 }
 
 .t4 {
-    background: center url('./Sky.png') no-repeat;
-    background-size:contain;
-    background-size:100vw;
+    background: left url('./Sky.png') no-repeat;
 }
 
-.Empty {
-    min-height: 400px;
-    height: 40%;
+.t1, .t2, .t3, .t4 {
+    background-size:contain;
+    background-position: absolute;
+    background-size:40vw;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    /* border-radius: 5px; */
+    /* border-bottom-left-radius: 0px; */
+    /* border-top-left-radius: 0px; */
 }
+/* .Empty { */
+    /* min-height: 400px; */
+    /* height: 40%; */
+    /* } */

@@ -10,10 +10,18 @@ class Home extends Component {
     render() {
       return (
         <div className="Home">
+            <div className="Elem">
             <Present/>
-            <Header />
+            </div>
+            <div className="Elem">
+            <Header/>
+            </div>
+            <div className="Elem">
             <Ctrl/>
+            </div>
+            <div className="Elem">
             <Footer/>
+            </div>
         </div>
       );
     }

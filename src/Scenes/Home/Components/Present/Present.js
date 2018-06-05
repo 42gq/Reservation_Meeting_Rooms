@@ -30,16 +30,16 @@ class Present extends React.Component {
             mode="horizontal"
           >
             <Menu.Item key="home">
-              <Icon type="" />StationF
+              Home
             </Menu.Item>
             <Menu.Item key="app" disabled>
-              <Icon type="appstore" /> Reservations
+              Reserve a Meeting Room !
             </Menu.Item>
             <SubMenu title={<span><Icon type="user" />My Profile</span>}>
               <Menu.Item title="myreservations"> My Reservations </Menu.Item>
             </SubMenu>
             <Menu.Item key="alipay">
-              <a href="https://ant.design" target="_blank" rel="noopener noreferrer">Navigation Four - Link</a>
+              <a href="https://stationf.co/fr/" target="_blank" rel="noopener noreferrer">Station F</a>
             </Menu.Item>
           </Menu>
           </div>

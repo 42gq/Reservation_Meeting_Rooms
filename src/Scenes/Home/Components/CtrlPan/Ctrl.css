@@ -1,11 +1,37 @@
 .Ctrl {
-        background-color: black(1200, 150, 150);
-        padding: 2px;
-        vertical-align: bottom;
-        align-items: left;
-        text-align: left;
+        background-color: black(0, 0, 0);
+        padding-top:0px;
+        vertical-align: top;
+        align-items: center;
+        text-align: center;
         font-family: 'Black Ops One', cursive;
         color: black;
+        border-radius: 5px;
         display: inline-block;
         *display: inline;
         }
+.verticallyCtl {
+        text-align: left;
+        float: left;
+        margin-top: 2px;
+        width: 100vw;
+        /* width: 50vw; */
+        /* padding-left: 10px; */
+        padding-top: 0px;
+        border-radius: 5px;
+        font-size: 150%;
+        font-family: 'Bitter', serif;
+}
+
+.title {
+        text-decoration: underline;
+         text-align: center;
+         padding-left: 30px;
+         padding-bottom: 30px;
+         /* padding-top: 10px; */
+}
+
+.panel {
+        text-align: center;
+        padding : 30px;
+}

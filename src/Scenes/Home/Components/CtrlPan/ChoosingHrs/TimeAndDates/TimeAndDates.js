@@ -1,6 +1,8 @@
 import React from 'react'
-import { DatePicker } from 'antd';
+import { DatePicker, TimePicker } from 'antd';
 import 'antd/dist/antd.css';
+
+const format = 'HH:mm';
 
 function onChange(date, dateString) {
   console.log(date, dateString);
@@ -9,9 +11,14 @@ function onChange(date, dateString) {
 class TimeAndDates extends React.Component {
   render () {
     return (
-      <DatePicker onChange={onChange} />
+      <div className='TimeAndDates'>
+        <TimePicker format={format} minuteStep={5}/>
+        <DatePicker onChange={onChange} />
+      </div>
     )
   }
   }
-
+  
+  
+ 
   export default TimeAndDates;
