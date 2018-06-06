@@ -10,10 +10,6 @@ class Ctrl extends Component {
     render () {
         return (
             <div className="Ctrl">
-            <Divider />
-                {/* <div className="verticallyCtl title"> */}
-                    {/* Meeting Rooms Item: */}
-                {/* </div> */}
                 <div className="verticallyCtl panel">
                     <SelectRoom/>
                 </div>

@@ -1,0 +1,12 @@
+.carac {
+    align-content: right;
+    align-items: right;
+    align-self: right;
+    text-align: left;
+    /* border-radius : 15px; */
+    /* float: right; */
+}
+
+.card {
+    border-bottom-right-radius : 30px;
+}

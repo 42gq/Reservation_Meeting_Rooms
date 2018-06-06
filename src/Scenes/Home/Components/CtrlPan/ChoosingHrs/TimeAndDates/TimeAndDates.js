@@ -11,8 +11,8 @@ function onChange(date, dateString) {
 class TimeAndDates extends React.Component {
   render () {
     return (
-      <div className='TimeAndDates'>
-        <TimePicker format={format} minuteStep={5}/>
+      <div>
+        <TimePicker format={format} minuteStep={30}/>
         <DatePicker onChange={onChange} />
       </div>
     )

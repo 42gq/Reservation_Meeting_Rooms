@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Divider } from 'antd';
 import Header from './Components/Header/Header'
 // import './Components/Header/HeaderStyle.css'
 import './HomeStyle.css'
@@ -16,12 +17,15 @@ class Home extends Component {
             <div className="Elem">
             <Header/>
             </div>
+            <Divider />
             <div className="Elem">
             <Ctrl/>
             </div>
+            <Divider />
             <div className="Elem">
             <Footer/>
             </div>
+            <Divider />
         </div>
       );
     }

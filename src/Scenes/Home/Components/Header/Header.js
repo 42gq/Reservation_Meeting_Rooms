@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './HeaderStyle.css';
+import 'antd/dist/antd.css';
+
 class HeaderB extends Component {
     render() {
         return (

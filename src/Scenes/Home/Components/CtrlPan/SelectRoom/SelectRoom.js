@@ -1,6 +1,7 @@
 import React from 'react'
 import 'antd/dist/antd.css';
 import { Select } from 'antd';
+import Duration from "./SelectDuration";
 
 const Option = Select.Option;
 
@@ -19,7 +20,8 @@ function handleFocus() {
 class SelectRoom extends React.Component {
 render() {
     return (
-  <Select
+  <div>
+    <Select
     showSearch
     style={{ width: 200 }}
     placeholder="Select your room"
@@ -33,6 +35,9 @@ render() {
     <Option value="Type Room 2">Type Room 2</Option>
     <Option value="Type Room 3">Type Room 3 </Option>
   </Select>
+  <Duration>
+    </Duration>
+  </div>
     );
 }
 }

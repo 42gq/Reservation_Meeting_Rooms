@@ -24,7 +24,7 @@ class Present extends React.Component {
             <img src={logo} className="App-logo" alt="logo" />
             </div>
             <div className='MenuPres'>
-          <Menu
+          <Menu className='MenuPres'
             onClick={this.handleClick}
             selectedKeys={[this.state.current]}
             mode="horizontal"
