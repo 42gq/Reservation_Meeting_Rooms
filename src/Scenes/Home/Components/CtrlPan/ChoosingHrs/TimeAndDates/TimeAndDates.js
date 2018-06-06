@@ -12,7 +12,7 @@ class TimeAndDates extends React.Component {
   render () {
     return (
       <div>
-        <TimePicker format={format} minuteStep={30}/>
+        <TimePicker format={format} minuteStep={15}/>
         <DatePicker onChange={onChange} />
       </div>
     )

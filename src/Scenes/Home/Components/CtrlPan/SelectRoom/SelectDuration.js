@@ -1,7 +1,6 @@
 import React from 'react'
 import 'antd/dist/antd.css';
 import { Select } from 'antd';
-import Duration from "./SelectDuration";
 
 const Option = Select.Option;
 
